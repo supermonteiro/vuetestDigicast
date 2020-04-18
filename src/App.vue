@@ -39,10 +39,10 @@ a {
 
 nav {
     background-image: linear-gradient(-45deg, blue, lightblue);
-    width: 50%;    
+    width: 50%;
     display: inline-block;
     text-align: center;
-    padding: 1% 0 1% 0;    
+    padding: 1% 0 1% 0;
 }
 
 </style>
