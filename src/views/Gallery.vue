@@ -2,42 +2,22 @@
     <div class="gallery">
         <h1>Gallery</h1>
 
-        <h2>There are {{ resultCount }} items</h2>
+        <h2>There are **** items</h2>
 
-        
-        
+        <div>
+            <h3>Item Concept</h3>
+            <img src="/img/item-sample.png"
+                alt="Item Concept"
+                width="962"
+                height="544">
+            <p>(delete this part)</p>
+        </div>
     </div>
-
 </template>
 
 <script>
-import json from '../../public/json/item-list.json';
-import GalleryItem from '../components/GalleryItem.vue';
-
 export default {
     name: 'Gallery',
-    data() {
-        return {
-            myJson: json,
-        };
-    },
-    components: {
-        GalleryItem,
-    },
-    computed: {
-        resultCount() {
-            if (this.myJson.length > 0 && this.myJson.length != null)
-                return this.myJson.length;
-            else
-                return 0;
-        },
-        console: () => console,
-    },
-    methods: {
-        dataLog() {
-            console.log(this.$data);
-        },
-    },
 };
 </script>
 

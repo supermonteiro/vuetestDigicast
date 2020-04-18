@@ -21,10 +21,6 @@ export default {
 </script>
 
 <style lang="scss">
-* {
-    font-family: "Open Sans";
-}
-
 body {
     color: #2c3e50;
     text-align: center;
@@ -34,7 +30,6 @@ body {
 
 a {
     margin-right: 10%;
-    text-decoration: none;
 }
 
 nav {
@@ -42,7 +37,6 @@ nav {
     width: 50%;
     display: inline-block;
     text-align: center;
-    padding: 1% 0 1% 0;
 }
 
 </style>
